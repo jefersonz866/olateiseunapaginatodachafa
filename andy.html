@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina para la dueña de micorason.tequiero</title>
+    <style>
+     .body { 
+     background-color: rgb(6, 172, 3);
+     text-align: center;
+    }
+
+    .body__title{
+color: white;
+    }
+
+    .body__img{
+width: 25%;
+border-radius: 25%;
+    }
+    </style>
+</head>
+
+<body class="body"> 
+  <h1>todo comenzo con un "HOLA" </h1>  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKsBTcMWFvs1C_9eO70YQpnG9H_RqOaPWX-qr6pe4rQFC3N1-hbh5lYjYaO0oYoqSnNQ&usqp=CAU" 
+  alt="foto de garfield" class="body__img" />
+  <button id="yes"> te quiero guapo </button>
+  <button id="no">  no te quiero feo  </button>
+
+
+  <script>
+    const Vutonsi = document.getElementById('yes');
+    const Vutonno = document.getElementById('no');
+
+const tequierodemasiado = ( ) => { 
+alert ('💘siempre juntos en las buenas y en las malas 💘');
+alert ('cuando te conoci me enamore de tu mirada <3')
+location.href = 'https://www.youtube.com/watch?v=I-xJlH4zvSU' ;
+};
+
+const evitarqueserompamicorazon = () => {
+Vutonno.style.position = 'absolute';
+Vutonno.style.top = (math.random() * Window.innerHeigth) + 'pix';
+Vutonno.style.left = (math.random() * Window.innerWidth) + 'pix';
+};
+
+Vutonsi.addEventListener('click', tequierodemasiado ) ;
+Vutonno.addEventListener('mouseover', evitarqueserompamicorazon) ;
+  </script>
+</body>
+
+</html>
